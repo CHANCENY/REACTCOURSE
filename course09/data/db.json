@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "title": "axios json server",
+      "datetime": "July 22, 2022  22:11 PM",
+      "body": "Promise based HTTP client for the browser and node.js\nMake XMLHttpRequests from the browser\nMake http requests from node.js\nSupports the Promise API\nIntercept request and response\nTransform request and response data\nCancel requests\nAutomatic transforms for JSON data\nClient side support for protecting against XSRF\n"
+    },
+    {
+      "id": 5,
+      "title": "Understanding Class C Network IP Addresses",
+      "datetime": "July 22, 2022  22:10 PM",
+      "body": "As you probably guessed, dividing the remainder 64 by 2 will slice the what left of the Pie to more smaller Networks starting from 192.0.0.0 up to 223.255.255.0 as Classful C Networks, and of course Classful C Networks would rule 3 bytes.\n64 / 2 = 32 as Remainder, and since we left of at 192, then the last number of Class C is 224, and 224 would belong to the next Class – D Networks.\nThis division chopped the rest of the IP space further to 2,097,152 smaller Networks.\n\n128 Networks belong to Class A,\n16,384 Networks belongs to Class B; and,\n2,097,152 belongs to Class C.\nClass C Networks will carry 28 – 2 usable IP addresses per network (remember, always consider subtracting the Network Address and Broadcast Address from the total available hosts).\n\n\n"
+    },
+    {
+      "id": 6,
+      "title": "Creating Class D Networks",
+      "datetime": "July 22, 2022  22:13 PM",
+      "body": "Class D Networks will be used for Multicast Addresses starting from 224.0.0.0 up to 239.255.255.255 Network, since it was dedicated to Multi-casting communication, only group of devices and not like other Classes Unicast communication, Division was not set as suppose to be with previous Classes.\n\nMulticast is a kind of Broadcast alternative, instead of sending a broadcast message that will be processed by all the devices connected at certain network, multicast message goes only to the certain group of devices because they asked for it. That’s how it works: “You ask for it and it get delivered such Imaging Server.”\n\nThe major advantage of Multicasting is saving the bandwidth, broadcasting to all devices on the network at the same time will consume all the bandwidth which might lead to “Broadcast Storm”.\n\nAs I mentioned in Course1 IP Fundamentals articles, advanced switches plays a big role in terms of Unicast, Broadcast, and Multicast which save the bandwidth. I recommend reading Ethernet LAN Standards and Ethernet MAC Addresses articles which will show you the difference between Unicast, Broadcast, and Multicast Messages."
+    },
+    {
+      "id": 7,
+      "title": "Hadoop - Introduction",
+      "datetime": "July 22, 2022  22:23 PM",
+      "body": "Hadoop is an Apache open source framework written in java that allows distributed processing of large datasets across clusters of computers using simple programming models. The Hadoop framework application works in an environment that provides distributed storage and computation across clusters of computers. Hadoop is designed to scale up from single server to thousands of machines, each offering local computation and storage."
+    },
+    {
+      "id": 8,
+      "title": "Fibonacci Number",
+      "datetime": "July 23, 2022  2:45 AM",
+      "body": "The above cartoon (Amend 2005) shows an unconventional sports application of the Fibonacci numbers (left two panels). (The right panel instead applies the Perrin sequence).\n\nA scrambled version 13, 3, 2, 21, 1, 1, 8, 5 (OEIS A117540) of the first eight Fibonacci numbers appear as one of the clues left by murdered museum curator Jacque Saunière in D. Brown's novel The Da Vinci Code (Brown 2003, pp. 43, 60-61, and 189-192). In the Season 1 episode \"Sabotage\" (2005) of the television crime drama NUMB3RS, math genius Charlie Eppes mentions that the Fibonacci numbers are found in the structure of crystals and the spiral of galaxies and a nautilus shell. In the Season 4 episode \"Masterpiece\" (2008) of the CBS-TV crime drama \"Criminal Minds,\" the agents of the FBI Behavioral Analysis Unit are confronted by a serial killer who uses the Fibonacci sequence to determine the number of victims for each of his killing episodes. In this episode, character Dr. Reid also notices that locations of the killings lie on the graph of a golden spiral, and going to the center of the spiral allows Reid to determine the location of the killer's base of operations."
+    }
+  ]
+}
